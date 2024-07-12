@@ -7,7 +7,6 @@ rpm-ostree install cinnamon \
 cinnamon-control-center \
 cinnamon-screensaver
 
-rpm-ostree override remove gnome-terminal \
-gnome-calendar
+rpm-ostree override remove gnome-terminal
 
 systemctl enable podman.socket
